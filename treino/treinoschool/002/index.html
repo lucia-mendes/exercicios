@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes do formulario</title>
+</head>
+<body>
+    <form action="PaginaInicial.html" method="get">
+        <fieldset>
+            <legend>Dados da conta</legend>
+            <p><label>Nome do usuario:</label></p>
+            <p><input type="text" name="usuario"></p>
+            <p><label>password:</label></p>
+            <p><input type="password" name="password"> </p>
+            <p><label>confirmar password:</label></p>
+            <p><input type="password" name="conf.password">
+                <p><label>email:</label></p>
+                <p><input type="text" name="email"></p>
+        </fieldset>   
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p><label>Data_Nascimento</label></p>
+            <p><input type="text" name="Data_Nascimento"></p>
+            <p><label>Morada</label></p>
+            <p><input type="text" name="Morada"></p>
+            <p><label>localidade</label></p>
+            <p><select name="localidade">
+            <option>Luanda</option>
+            <option>Benguela</option>
+            <option>Huambo</option>
+            <option>Cabinda</option>
+            </select>
+         </p>
+         <br>
+         <p><input type="button" name="enviar" value="cadastrar"> <input type="button" name="barrar"  value="cancelar"></p>
+        </fieldset> 
+    </form>
+</body>
+</html>

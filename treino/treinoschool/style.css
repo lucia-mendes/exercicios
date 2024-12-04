@@ -1,0 +1,16 @@
+body{
+    background-color: blanchedalmond;
+}
+h3{
+    font-size: 40px;
+    color: blue;
+}
+table{
+    width: 400px;
+    height: 90px;
+    font-family:Arial, 
+}
+tr.lista{
+    font-size: 28px;
+    color: green;
+}

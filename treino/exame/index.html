@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<HTML lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de TLP</title>
+</head>
+<body background="FTOD6590.JPG">
+    <h1>Lista de Doces</h1>
+    <ol>
+        <li>Bolo</li>
+        <li>Musse</li>
+        <li>Pudim</li>
+        <li>Bolacha</li>
+        <li>Gelado</li>
+    </ol>
+    <h1>Fast Food</h1>
+    <table border="1">
+        <tr>
+            <td>Pedido</td>
+            <td>Preço</td>
+            <td>Peso</td>
+        </tr>
+        <tr>
+            <td>Hamnurguer</td>
+            <td>1.200kz</td>
+            <td>500kg</td>
+        </tr>
+        <tr>
+            <td>Cachorro</td>
+            <td>1000kz</td>
+            <td>400kg</td>
+        </tr>
+        <tr>
+            <td>Faita</td>
+            <td>3000kz</td>
+            <td>250kg</td>
+        </tr>
+        <tr>
+            <td>Mujop</td>
+            <td>1800kz</td>
+            <td>800kg</td>
+        </tr>
+    </table>
+    <form action="index.html" method="get">
+        <fieldset>
+            <legend>Dados da Conta</legend>
+            <p><label> Nome</label></p>
+            <p><input type="text" name="Nome"></p>
+            <p><label>Passe</label></p>
+            <p><input type="password" name="Passe"></p>
+            <p><label>Confirmar Passe</label></p>
+            <p><input type="password" name="Conf.Passe"></p>
+            <p><label>Email</label></p> 
+            <p><input type="email" name="email"></p> 
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label>Data Nascimento</label></p>
+            <p><input type="date" name="data"></p>
+            <p><label>Morada</label></p>
+            <p><input type="text" name="morada"></p>
+            <p><label>Localidade</label></p>
+            <p> 
+                <select name="localidade">
+                    <option >Huambo</option>
+                    <option >Luanda</option>
+                    <option >Malange</option>
+                    <option>Benguela</option>
+                </select>
+            </p>
+            <p><label>Telefone</label></p>
+            <p><input type="number" name="Telefone" id=""></p>
+            <p><input type="button" value="Enviar">
+            <input type="button" value="Cancelar"></p>
+        </fieldset>
+    </form>
+</HTML>

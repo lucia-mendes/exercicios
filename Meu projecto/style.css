@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: rgb(3, 3, 12);
+    text-align: center;
+    margin-top: 220px;
+    box-shadow: (4 10 1000px);
+    display: block;
+}
+small{
+  font-size: small;
+  height: auto;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    font-size: 30px;
+    font-family: Verdana;
+    padding-left: 30px;
+}
+ol{
+    margin: 50px;
+}
+ul{
+    font-style:italic;
+}
